@@ -17,9 +17,6 @@ import org.eclipse.jetty.http.HostPortHttpField;
 import org.eclipse.jetty.http.HttpHeader;
 import org.eclipse.jetty.http3.qpack.table.StaticTable;
 
-/**
- *
- */
 public class AuthorityHttpField extends HostPortHttpField
 {
     public static final String AUTHORITY = StaticTable.STATIC_TABLE[1][0];
